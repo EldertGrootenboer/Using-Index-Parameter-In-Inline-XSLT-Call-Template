@@ -1,0 +1,46 @@
+<ns0:RequestOrder xmlns:ns0="http://Eldert.BizTalk.InlineXSLTWithIndexer.Schemas.RequestOrder/2016/10">
+	<OrderNumber>1</OrderNumber> 
+	<Delivery>
+		<DeliveryDate>2016-10-25</DeliveryDate> 
+		<Product>
+			<Name>First Product</Name> 
+			<Amount>10</Amount> 
+			<SKU>123456</SKU> 
+		</Product>
+		<Product>
+			<Name>Second Product</Name> 
+			<Amount>5</Amount> 
+			<SKU>654321</SKU> 
+		</Product>
+		<Product>
+			<Name>Third Product</Name> 
+			<Amount>1</Amount> 
+			<SKU>456789</SKU> 
+		</Product>
+		<Insurance>
+			<SKU>456789</SKU> 
+			<PolicyNumber>123456789</PolicyNumber> 
+		</Insurance>
+		<Insurance>
+			<SKU>123456</SKU> 
+			<PolicyNumber>987654321</PolicyNumber> 
+		</Insurance>
+	</Delivery>
+	<Delivery>
+		<DeliveryDate>2016-10-28</DeliveryDate> 
+		<Product>
+			<Name>First Product</Name> 
+			<Amount>200</Amount> 
+			<SKU>123456</SKU> 
+		</Product>
+		<Product>
+			<Name>Third Product</Name> 
+			<Amount>50</Amount> 
+			<SKU>456789</SKU> 
+		</Product>
+		<Insurance>
+			<SKU>456789</SKU> 
+			<PolicyNumber>123456789</PolicyNumber> 
+		</Insurance>
+	</Delivery>
+</ns0:RequestOrder>

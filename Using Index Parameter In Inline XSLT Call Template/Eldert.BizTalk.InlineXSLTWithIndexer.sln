@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.BizTalk.InlineXSLTWithIndexer.Schemas", "Eldert.BizTalk.InlineXSLTWithIndexer.Schemas\Eldert.BizTalk.InlineXSLTWithIndexer.Schemas.btproj", "{CD267787-6029-4E31-BDB4-F24CC0DE25B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.BizTalk.InlineXSLTWithIndexer.Maps", "Eldert.BizTalk.InlineXSLTWithIndexer.Maps\Eldert.BizTalk.InlineXSLTWithIndexer.Maps.btproj", "{216C4141-FCC7-4FF6-9AD3-5F75D6FF1AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.BizTalk.InlineXSLTWithIndexer.Orchestrations", "Eldert.BizTalk.InlineXSLTWithIndexer.Orchestrations\Eldert.BizTalk.InlineXSLTWithIndexer.Orchestrations.btproj", "{02F7A124-B877-4322-A28B-6C3E4298A3AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.BizTalk.InlineXSLTWithIndexer.Pipelines", "Eldert.BizTalk.InlineXSLTWithIndexer.Pipelines\Eldert.BizTalk.InlineXSLTWithIndexer.Pipelines.btproj", "{70CBE963-9C8C-41B5-A9BC-5880D7375D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.BizTalk.InlineXSLTWithIndexer.BusinessComponents", "Eldert.BizTalk.InlineXSLTWithIndexer.BusinessComponents\Eldert.BizTalk.InlineXSLTWithIndexer.BusinessComponents.csproj", "{19264303-6F07-46D1-8E86-1463673B9F44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0701259-6F40-4F36-9CF8-6BA132AB797B}"
+	ProjectSection(SolutionItems) = preProject
+		Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\Eldert.BizTalk.InlineXSLTWithIndexer.Deployment.btdfproj = Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\Eldert.BizTalk.InlineXSLTWithIndexer.Deployment.btdfproj
+		Eldert.BizTalk.InlineXSLTWithIndexer.snk = Eldert.BizTalk.InlineXSLTWithIndexer.snk
+		Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\InstallWizard.xml = Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\InstallWizard.xml
+		Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\PortBindingsMaster.xml = Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\PortBindingsMaster.xml
+		Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\UnInstallWizard.xml = Eldert.BizTalk.InlineXSLTWithIndexer.Deployment\UnInstallWizard.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{0759F363-71FD-4E44-BBDF-73D704C0F22B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Policies", "Policies", "{727A1A50-1790-4828-8CF2-D78D982A6F62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample Messages", "Sample Messages", "{841821E1-CDAE-4684-8384-2C6D0BC9CA86}"
+	ProjectSection(SolutionItems) = preProject
+		Sample Messages\RequestOrder.xml = Sample Messages\RequestOrder.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://eph.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Eldert.BizTalk.InlineXSLTWithIndexer.BusinessComponents\\Eldert.BizTalk.InlineXSLTWithIndexer.BusinessComponents.csproj
+		SccProjectName1 = Eldert.BizTalk.InlineXSLTWithIndexer.BusinessComponents
+		SccLocalPath1 = Eldert.BizTalk.InlineXSLTWithIndexer.BusinessComponents
+		SccProjectUniqueName2 = Eldert.BizTalk.InlineXSLTWithIndexer.Maps\\Eldert.BizTalk.InlineXSLTWithIndexer.Maps.btproj
+		SccProjectName2 = Eldert.BizTalk.InlineXSLTWithIndexer.Maps
+		SccLocalPath2 = Eldert.BizTalk.InlineXSLTWithIndexer.Maps
+		SccProjectUniqueName3 = Eldert.BizTalk.InlineXSLTWithIndexer.Orchestrations\\Eldert.BizTalk.InlineXSLTWithIndexer.Orchestrations.btproj
+		SccProjectName3 = Eldert.BizTalk.InlineXSLTWithIndexer.Orchestrations
+		SccLocalPath3 = Eldert.BizTalk.InlineXSLTWithIndexer.Orchestrations
+		SccProjectUniqueName4 = Eldert.BizTalk.InlineXSLTWithIndexer.Pipelines\\Eldert.BizTalk.InlineXSLTWithIndexer.Pipelines.btproj
+		SccProjectName4 = Eldert.BizTalk.InlineXSLTWithIndexer.Pipelines
+		SccLocalPath4 = Eldert.BizTalk.InlineXSLTWithIndexer.Pipelines
+		SccProjectUniqueName5 = Eldert.BizTalk.InlineXSLTWithIndexer.Schemas\\Eldert.BizTalk.InlineXSLTWithIndexer.Schemas.btproj
+		SccProjectName5 = Eldert.BizTalk.InlineXSLTWithIndexer.Schemas
+		SccLocalPath5 = Eldert.BizTalk.InlineXSLTWithIndexer.Schemas
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD267787-6029-4E31-BDB4-F24CC0DE25B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD267787-6029-4E31-BDB4-F24CC0DE25B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD267787-6029-4E31-BDB4-F24CC0DE25B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CD267787-6029-4E31-BDB4-F24CC0DE25B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD267787-6029-4E31-BDB4-F24CC0DE25B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD267787-6029-4E31-BDB4-F24CC0DE25B1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{216C4141-FCC7-4FF6-9AD3-5F75D6FF1AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216C4141-FCC7-4FF6-9AD3-5F75D6FF1AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216C4141-FCC7-4FF6-9AD3-5F75D6FF1AF2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{216C4141-FCC7-4FF6-9AD3-5F75D6FF1AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216C4141-FCC7-4FF6-9AD3-5F75D6FF1AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216C4141-FCC7-4FF6-9AD3-5F75D6FF1AF2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{02F7A124-B877-4322-A28B-6C3E4298A3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F7A124-B877-4322-A28B-6C3E4298A3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F7A124-B877-4322-A28B-6C3E4298A3AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02F7A124-B877-4322-A28B-6C3E4298A3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F7A124-B877-4322-A28B-6C3E4298A3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F7A124-B877-4322-A28B-6C3E4298A3AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{70CBE963-9C8C-41B5-A9BC-5880D7375D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CBE963-9C8C-41B5-A9BC-5880D7375D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CBE963-9C8C-41B5-A9BC-5880D7375D0C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{70CBE963-9C8C-41B5-A9BC-5880D7375D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CBE963-9C8C-41B5-A9BC-5880D7375D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CBE963-9C8C-41B5-A9BC-5880D7375D0C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{19264303-6F07-46D1-8E86-1463673B9F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19264303-6F07-46D1-8E86-1463673B9F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19264303-6F07-46D1-8E86-1463673B9F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19264303-6F07-46D1-8E86-1463673B9F44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		BizTalkNamespace = Eldert.BizTalk.InlineXSLTWithIndexer
+	EndGlobalSection
+EndGlobal
